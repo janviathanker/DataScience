@@ -87,8 +87,25 @@ The trained model is tested using sample character inputs (A, B, or C) and predi
 ## 📝 Conclusion
 This project provides hands-on experience with the core building blocks of neural networks and strengthens understanding of how learning occurs internally without relying on high-level ML frameworks.
 
----
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 👤 Author
-**Your Name**  
-Course: Module 11 – Neural Network from Scratch
+# COVID-19 Data Analysis
+
+This project analyzes global COVID-19 confirmed cases and deaths, and correlates them with worldwide happiness indicators.
+
+## Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+## Key Findings
+- High GDP countries showed higher confirmed cases.
+- Happiness had weak relation with COVID outcomes.
+- Social support showed minimal protective effect.
+
+## Files
+- covid_analysis.ipynb – main notebook
+- covid19_Confirmed_dataset.csv
+- covid19_deaths_dataset.csv
+- worldwide_happiness_report.csv
