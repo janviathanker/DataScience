@@ -1,0 +1,55 @@
+# 🌧️ Rainfall Prediction using Linear Regression
+
+## Project Overview
+This project focuses on predicting daily rainfall in Austin, Texas using historical weather data.  
+The objective is to analyze how different weather parameters affect precipitation and to build a machine learning model for rainfall prediction.
+
+## Dataset
+- **File:** austin_weather.csv  
+- **Source:** Provided in LMS (Austin Weather Dataset)  
+- **Target Variable:** PrecipitationSumInches  
+
+The dataset contains weather attributes such as:
+- Average Temperature  
+- Humidity  
+- Dew Point  
+- Visibility  
+- Wind Speed  
+
+## Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+## Methodology
+1. Load and explore the dataset  
+2. Clean the data by handling missing values and special symbols ("T", "-")  
+3. Convert all values to numeric format  
+4. Select relevant features  
+5. Split data into training and testing sets  
+6. Train a Linear Regression model  
+7. Evaluate the model using MAE, RMSE, and R²  
+8. Visualize rainfall trends and correlations  
+
+## Model Evaluation Metrics
+- **MAE (Mean Absolute Error)**  
+- **RMSE (Root Mean Squared Error)**  
+- **R² Score (Coefficient of Determination)**  
+
+These metrics are used to assess the prediction accuracy of the model.
+
+## Key Findings
+- Humidity and dew point show the strongest correlation with rainfall.  
+- Linear Regression provides a simple yet effective baseline model for rainfall prediction.  
+- Weather data can be successfully used to estimate precipitation levels.
+
+## How to Run the Project
+1. Place the notebook and dataset in the same folder  
+2. Open the `.ipynb` file in Jupyter Notebook  
+3. Run all cells sequentially  
+
+## Conclusion
+This project demonstrates a complete machine learning pipeline from data preprocessing to model evaluation. It highlights how real-world weather data can be used for predictive analytics using simple regression techniques.
